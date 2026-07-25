@@ -29,4 +29,5 @@ export function createBall(radius = 1.4) {
   contactShadow.position.y = 0.02;
 
   return { mesh, outlineMesh, contactShadow };
+
 }
