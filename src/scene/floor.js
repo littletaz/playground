@@ -11,4 +11,5 @@ export function createFloor(size = 30) {
   grid.position.y = 0.01; // avoid z-fighting with the floor surface
 
   return { floor, grid };
+
 }
